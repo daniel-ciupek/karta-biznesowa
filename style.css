@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after  {
+  box-sizing: inherit;
+
+}
+
+
+
 body {
     background: #2C2141;
     display: flex;
@@ -11,4 +21,5 @@ body {
     border-radius: 16px ;
     width: 624px;
     margin: 16px;
+    padding: 32px;
 }
