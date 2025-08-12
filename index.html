@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    
-</head>
-<body>
+  </head>
+  <body>
     <main class="main">
-        <article>
-            <img src="avatar.png" alt="zdjęcie dla imię i nazwisko">
-<header>
-    <h1>Daniel Ciupek</h1>
-    <p>frontend developer</p>
-    </header>
-    <p>Początkujący frontendowiec. Uczy sie od kilku tygodni. W planach poznać 12-sto tygodniowy kurs WTF co ten frontend. W przyszłości po opanowaniu podstaw html css oraz js dalsze pogłębianie wiedzy.</p>
-<p>w sieci: Facebook Instaram Github</p>
-</article>
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="zdjęcie dla imię i nazwisko"
+        />
+        <div>
+          <header class="person__info">
+            <h1 class="person__name">Daniel Ciupek</h1>
+            <p class="person__position">frontend developer</p>
+          </header>
+          <p class="person__description person__description--margin">
+            <strong class="special">Początkujący frontendowiec.</strong> Uczy
+            sie od kilku tygodni.
+            <strong class="special"
+              >W planach poznać 12-sto tygodniowy kurs WTF co ten
+              frontend.</strong
+            >
+            W przyszłości po opanowaniu podstaw html css oraz js dalsze
+            pogłębianie wiedzy.
+          </p>
+          <p class="person__description">
+            w sieci:
+            <a class="link" href="https://www.instagram.com/">Instaram </a>
+            <a class="link" href="https://www.facebook.com/?locale=pl_PL"
+              >Facebook
+            </a>
+            <a
+              class="link"
+              href="https://github.com/daniel-ciupek/karta-biznesowa"
+              >Git-Hub
+            </a>
+          </p>
+        </div>
+      </article>
     </main>
-    
-</body>
+  </body>
 </html>
